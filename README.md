@@ -74,16 +74,16 @@ Please see the [Code Competition FAQ](https://www.kaggle.com/docs/competitions#n
 ## Data  
 
 ### Dataset Description
-The text data presented here is from the USMLE® Step 2 Clinical Skills examination, a medical licensure exam. This exam measures a trainee's ability to recognize pertinent clinical facts during encounters with standardized patients.
+The text data presented here is from the **USMLE® Step 2** Clinical Skills examination, a medical licensure exam. This exam measures a trainee's ability to recognize pertinent clinical facts during encounters with standardized patients.
 
-During this exam, each test taker sees a Standardized Patient, a person trained to portray a clinical case. After interacting with the patient, the test taker documents the relevant facts of the encounter in a patient note. Each patient note is scored by a trained physician who looks for the presence of certain key concepts or features relevant to the case as described in a rubric. The goal of this competition is to develop an automated way of identifying the relevant features within each patient note, with a special focus on the patient history portions of the notes where the information from the interview with the standardized patient is documented.
+During this exam, each test taker sees a **Standardized Patient**, a person trained to portray a **clinical case**. After interacting with the patient, the test taker documents the relevant facts of the encounter in a **patient note**. Each patient note is scored by a trained physician who looks for the presence of certain key concepts or **features** relevant to **the case as described in a rubric**. The goal of this competition is to develop an automated way of **identifying the relevant features** within each patient note, with a special focus on the patient history portions of the notes where the information from the interview with the standardized patient is documented.
 
 ### Important Terms
-Clinical Case: The scenario (e.g., symptoms, complaints, concerns) the Standardized Patient presents to the test taker (medical student, resident or physician). Ten clinical cases are represented in this dataset.
-Patient Note: Text detailing important information related by the patient during the encounter (physical exam and interview).
-Feature: A clinically relevant concept. A rubric describes the key concepts relevant to each case.
+**Clinical Case**: The scenario (e.g., symptoms, complaints, concerns) the Standardized Patient presents to the test taker (medical student, resident or physician). Ten clinical cases are represented in this dataset.
+**Patient Note**: Text detailing important information related by the patient during the encounter (physical exam and interview).
+**Feature**: A clinically relevant concept. A rubric describes the key concepts relevant to each case.
 ### Training Data
-patient_notes.csv - A collection of about 40,000 Patient Note history portions. Only a subset of these have features annotated. You may wish to apply unsupervised learning techniques on the notes without annotations. The patient notes in the test set are not included in the public version of this file.
+**patient_notes.csv** - A collection of about **40,000 Patient Note** history portions. Only a subset of these have features annotated. You may wish to apply unsupervised learning techniques on the notes without annotations. The patient notes in the test set are not included in the public version of this file.
 pn_num - A unique identifier for each patient note.
 case_num - A unique identifier for the clinical case a patient note represents.
 pn_history - The text of the encounter as recorded by the test taker.
