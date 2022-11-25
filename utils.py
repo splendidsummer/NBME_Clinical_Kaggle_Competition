@@ -183,6 +183,20 @@ def prepare_input(cfg, text, feature_text):
     return inputs
 
 
+def prepare_test_input(cfg, text, feature_text):
+    inputs = cfg.tokenizer(feature_text,
+                           text,
+                           add_special_tokens=True,
+                           max_length=CFG.max_len,
+                           padding="max_length",
+                           return_offsets_mapping=True)
+
+    for k, v in inputs.items():
+        inputs[k] = torch.tensor(v, dtype=torch.long)
+        offsets = inputs['']
+    return inputs, offsets
+
+
 def create_label(cfg, feature, text, annotation_length, location_list, answers):
     encoded = cfg.tokenizer(feature,
                             text,
