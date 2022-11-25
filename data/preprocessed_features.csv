@@ -1,0 +1,144 @@
+,feature_num,case_num,feature_text
+0,0,0,Family history of MI or Family history of myocardial infarction
+1,1,0,Family history of thyroid disorder
+2,2,0,Chest pressure
+3,3,0,Intermittent symptoms
+4,4,0,Lightheaded
+5,5,0,No hair changes or no nail changes or no temperature intolerance
+6,6,0,Adderall use
+7,7,0,Shortness of breath
+8,8,0,Caffeine use
+9,9,0,heart pounding or heart racing
+10,10,0,Few months duration
+11,11,0,17 year
+12,12,0,Male
+13,100,1,No vaginal discharge
+14,101,1,Weight loss
+15,102,1,Not sexually active
+16,103,1,Prior episodes of diarrhea
+17,104,1,20 year
+18,105,1,No bloody bowel movements
+19,106,1,Recurrent bouts over past 6 months
+20,107,1,Right sided LQ abdominal pain or Right lower quadrant abdominal pain
+21,108,1,No urinary symptoms
+22,109,1,Diminished appetite
+23,110,1,Normal LMP 2 weeks ago or Normal last menstrual period 2 weeks ago
+24,111,1,8 to 10 hours of acute pain
+25,112,1,Female
+26,200,2,Prior normal periods
+27,201,2,Last Pap smear 1 year ago
+28,202,2,IUD
+29,203,2,Sexually active
+30,204,2,Vaginal dryness
+31,205,2,Irregular menses
+32,206,2,Recent nausea vomiting or Recent flulike symptoms
+33,207,2,No premenstrual symptoms
+34,208,2,Female
+35,209,2,Stress
+36,210,2,LMP 2 months ago or Last menstrual period 2 months ago
+37,211,2,Hot flashes
+38,212,2,Irregular flow or Irregular frequency or Irregular intervals
+39,213,2,Onset 3 years ago
+40,214,2,Heavy sweating
+41,215,2,Sleep disturbance or Early awakenings
+42,216,2,44 year
+43,300,3,FHx of PUD or Family history of peptic ulcer disease
+44,301,3,Epigastric discomfort
+45,302,3,Darker bowel movements
+46,303,3,NSAID use or Nonsteroidal anti inflammatory drug use
+47,304,3,burning or gnawing or burning and gnawing
+48,305,3,Post prandial bloating or fullness with meals
+49,306,3,getting worse or progressive or symptoms now daily
+50,307,3,2 to 3 beers a week
+51,308,3,Male
+52,309,3,duration 2 months
+53,310,3,Awakens at night
+54,311,3,No blood in stool
+55,312,3,Intermittent
+56,313,3,Minimal to no change with Tums
+57,314,3,Nausea
+58,315,3,35 year
+59,400,4,Lack of other thyroid symptoms
+60,401,4,anxious or nervous
+61,402,4,Stress due to caring for elderly parents
+62,403,4,Heavy caffeine use
+63,404,4,No depressed mood
+64,405,4,Weight stable
+65,406,4,Insomnia
+66,407,4,Female
+67,408,4,Decreased appetite
+68,409,4,45 year
+69,500,5,Onset 5 years ago
+70,501,5,Female
+71,502,5,No caffeine use
+72,503,5,Associated SOB or Associated shortness of breath
+73,504,5,Episodes of heart racing
+74,505,5,Recent visit to emergency department with negative workup
+75,506,5,No chest pain
+76,507,5,No illicit drug use
+77,508,5,Associated nausea
+78,509,5,Increased frequency recently
+79,510,5,Associated feeling of impending doom
+80,511,5,Episodes last 15 to 30 minutes
+81,512,5,Associated throat tightness
+82,513,5,Feels hot or Feels clammy
+83,514,5,Episode of hand numbness or Episode of finger numbness
+84,515,5,Fatigue or Difficulty concentrating
+85,516,5,Increased stress
+86,517,5,26 year
+87,600,6,Subjective fevers
+88,601,6,Male
+89,602,6,17 year
+90,603,6,Recent upper respiratory symptoms
+91,604,6,Worse with deep breath or pleuritic
+92,605,6,Exercise induced asthma
+93,606,6,Chest pain
+94,607,6,Duration x 1 day
+95,608,6,No shortness of breath
+96,609,6,Recent heavy lifting at work or recent rock climbing
+97,610,6,No relief with asthma inhaler
+98,611,6,Sharp or stabbing or 7 to 8 out of 10 on pain scale
+99,700,7,Female
+100,701,7,Weight Gain
+101,702,7,heavy periods or irregular periods
+102,703,7,Last menstrual period 2 months ago
+103,704,7,Unprotected Sex
+104,705,7,Fatigue
+105,706,7,Infertility HX or Infertility history
+106,707,7,35 year
+107,708,7,symptoms for 6 months
+108,800,8,Increased appetite
+109,801,8,Son died 3 weeks ago
+110,802,8,Female
+111,803,8,Auditory hallucination once
+112,804,8,tossing and turning
+113,805,8,67 year
+114,806,8,Difficulty falling asleep
+115,807,8,Hallucinations after taking Ambien
+116,808,8,duration 3 weeks
+117,809,8,Unsuccessful napping
+118,810,8,Sleeping medication ineffective
+119,811,8,Diminished energy or feeling drained
+120,812,8,loss of interest
+121,813,8,Visual hallucination once
+122,814,8,FHx of depression or Family history of depression
+123,815,8,Early wakening
+124,816,8,No suicidal ideations
+125,817,8,Difficulty with sleep
+126,900,9,No relief with Motrin or no relief with tylenol
+127,901,9,20 year
+128,902,9,1 day duration or 2 days duration
+129,903,9,Myalgias
+130,904,9,Global headache or diffuse headache
+131,905,9,Neck pain
+132,906,9,Vomiting
+133,907,9,No rash
+134,908,9,Nausea
+135,909,9,viral symptoms or rhinorrhea or scratchy throat
+136,910,9,Shares an apartment
+137,911,9,Meningococcal vaccine status unknown
+138,912,9,Family history of migraines
+139,913,9,Female
+140,914,9,Photophobia
+141,915,9,No known illness contacts
+142,916,9,Subjective fever

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@region-8.seetacloud.com:25051 (2)" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
     <serverData>
       <paths name="root@region-3.seetacloud.com:42361">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@region-8.seetacloud.com:20325">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/NBME_Clinical_Kaggle_Competition" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
@@ -16,6 +24,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@region-8.seetacloud.com:25051 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/NBME_Clinical_Kaggle_Competition/" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
