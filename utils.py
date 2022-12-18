@@ -189,12 +189,15 @@ def prepare_test_input(cfg, text, feature_text):
                            add_special_tokens=True,
                            max_length=CFG.max_len,
                            padding="max_length",
-                           return_offsets_mapping=True)
+                           return_offsets_mapping=True,
+                           return_tensors='pt'
+                           )
 
-    for k, v in inputs.items():
-        inputs[k] = torch.tensor(v, dtype=torch.long)
-        offsets = inputs['']
-    return inputs, offsets
+    # for k, v in inputs.items():
+    #     inputs[k] = torch.tensor(v, dtype=torch.long)
+
+    return inputs['input_ids'], inputs['attention_mask'], inputs['token_type_ids'], \
+           inputs['offset_mapping'], inputs['sequence_ids']
 
 
 def create_label(cfg, feature, text, annotation_length, location_list, answers):

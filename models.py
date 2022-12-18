@@ -18,6 +18,7 @@ class CustomModel(nn.Module):
             self.model = AutoModel.from_pretrained(cfg.model, config=self.config)
         else:
             self.model = AutoModel(self.config)
+
         self.fc_dropout_0 = nn.Dropout(0.1)
         self.fc_dropout_1 = nn.Dropout(0.2)
         self.fc_dropout_2 = nn.Dropout(0.3)
@@ -39,13 +40,14 @@ class CustomModel(nn.Module):
             module.bias.data.zero_()
             module.weight.data.fill_(1.0)
 
-    def feature(self, inputs):
+    def feature(self, inputs):  # inputs here is dictionary from tokenizer
         outputs = self.model(**inputs)
-        last_hidden_states = outputs[0]
+        last_hidden_states = outputs[0]  # why 0??
         return last_hidden_states
 
     def forward(self, inputs):
         feature = self.feature(inputs)
+        # I do not really get why they use multiple dropout for features then combine
         output_0 = self.fc(self.fc_dropout_0(feature))
         output_1 = self.fc(self.fc_dropout_1(feature))
         output_2 = self.fc(self.fc_dropout_2(feature))
@@ -104,4 +106,6 @@ class FGM():
                 param.data = self.backup[name]
         # 清空self.backup
         self.backup = {}
+
+
 

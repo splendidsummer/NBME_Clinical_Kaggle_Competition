@@ -43,7 +43,7 @@ class TestDataset(Dataset):
         return len(self.feature_texts)
 
     def __getitem__(self, item):
-        inputs = prepare_input(self.cfg,
+        inputs = prepare_test_input(self.cfg,
                                self.pn_historys[item],
                                self.feature_texts[item])
 

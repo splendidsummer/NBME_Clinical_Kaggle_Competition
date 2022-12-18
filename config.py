@@ -14,10 +14,14 @@ class CFG:
     print_freq = 100
     num_workers = 4
     model = "microsoft/deberta-v3-large"
+    # model = 'xlm-roberta-base'
+    # model = 'microsoft/deberta-v3-base'
+    # model = 'bert-base-uncased'
+
     scheduler = 'cosine'  # ['linear', 'cosine']
     batch_scheduler = True
     num_cycles = 0.5
-    num_warmup_steps = 0.1
+    num_warmup_prob = 0.1
     epochs = 3
     encoder_lr = 6e-6
     decoder_lr = 6e-6
